@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Color</title>
+    <style>
+        body {
+            background-color: #FFFFFF;
+        }
+
+        #contenedor {
+            width: 970px;
+            margin: 0 auto;
+            padding: 25px;
+            height: 100%;
+        }
+
+        #header {
+            text-align: center;
+            animation: headerFadeIn 1s ease-in-out forwards;
+        }
+
+        @keyframes headerFadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        #header h1 {
+            font-family: 'Cooper Black';
+            padding: 20px;
+        }
+
+        #header ul li {
+            display: inline;
+            margin: 0 3px;
+        }
+
+        #header ul li a {
+            text-decoration: none;
+            background-color: rgb(166, 230, 200);
+            padding: 18px;
+            color: #ffffff;
+        }
+
+        #header ul li a:hover {
+            background-color: #007CC2;
+            text-decoration: underline;
+        }
+
+        #Color img {
+            image-orientation: flip;
+            width: 250px;
+            height: auto;
+            animation: imageFadeIn 0.5s ease-in-out forwards;
+        }
+
+        #Color img:hover {
+            animation: imageZoom 0.3s ease-in-out forwards;
+        }
+
+        @keyframes imageFadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes imageZoom {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="header">
+            <h1>Galería de Fotos Victoria</h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Color.html">Color</a></li>
+                <li><a href="byn.html">Blanco y Negro</a></li>
+                <li><a href="one.html">120</a></li>
+            </ul>
+            <br>
+        </div>
+        <div id="Color">
+            <h2>Color</h2>
+            <img src="img/c1.JPG">
+            <img src="img/c2.JPG">
+            <img src="img/c3.jpg">
+            <img src="img/c4.jpeg">
+            <img src="img/c5.JPG">
+            <img src="img/c6.JPG">
+            <img src="img/c7.JPG">
+            <img src="img/c8.JPG">
+            <br>
+            <h3>Esto es color.</h3>
+            <br>
+            <br>
+        </div>
+    </div>
+</body>
+</html>

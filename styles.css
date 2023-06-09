@@ -1,0 +1,63 @@
+body {
+    background-color: #FFFFFF
+}
+
+#contenedor {
+    width: 970px;
+    
+
+    margin: 0 auto;
+    padding: 25px;
+    height: 100%;
+}
+
+#header {
+    text-align:center
+    
+    
+}#header h1 {
+    font-family: 'Garamond';
+    padding: 20px;
+}
+
+#header ul li{
+    display: inline;
+    margin: 0 3px;
+
+}
+
+#header ul li a {
+    text-decoration: none;
+    background-color: rgb(166, 230, 200);
+    padding: 18px;
+    color: #ffffff 
+    
+
+}
+
+
+
+#header ul li a:hover {
+    background-color: #007CC2;
+    text-decoration: underline;
+    
+}
+
+#Color img {
+    image-orientation:flip;
+    width: 100px;
+    height: 200px;
+}
+
+#byn img {
+    image-orientation:flip;
+    width: 150px;
+    height: 200px;
+}
+
+#one img {
+    image-orientation:flip;
+    width: 250px;
+    height: 200px;
+}
+
